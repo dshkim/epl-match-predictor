@@ -239,11 +239,11 @@ Grid Search was chosen for its effectiveness in exhaustively evaluating paramete
 
 ### Incorporating Rolling Averages
 
-To further refine the Random Forest model, rolling averages were introduced for numerical features. The optimal window for rolling averages was determined to be the last 2 matches. This technique smooths out short-term fluctuations and highlights longer-term trends.
+To further refine the Random Forest model, rolling averages were introduced for numerical features. The optimal window for rolling averages was determined to be the last 5 matches. This technique smooths out short-term fluctuations and highlights longer-term trends.
 
 **Benefits of Rolling Averages**:
 - **Trend Identification**: Rolling averages help capture temporal patterns by smoothing out noise and emphasizing significant trends, which can be crucial for predicting outcomes in time series data.
-- **Enhanced Feature Representation**: By incorporating rolling averages of the last 2 matches, the model can better understand performance trends and dynamics over time, leading to potentially more accurate predictions.
+- **Enhanced Feature Representation**: By incorporating rolling averages of the last 5 matches, the model can better understand performance trends and dynamics over time, leading to potentially more accurate predictions.
 
 Overall, these improvements aimed to enhance model accuracy and robustness by optimizing hyperparameters and incorporating additional features that reflect underlying data patterns.
 
