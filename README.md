@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project combines a love for soccer with data science!
+This project combines my love for soccer with data science!
 
 ### Background
 
