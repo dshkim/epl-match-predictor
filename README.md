@@ -1,4 +1,4 @@
-# EPL Match Predictor
+# English Premier League Match Predictor
 
 ## Introduction
 
